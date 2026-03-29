@@ -42,8 +42,8 @@ You're analyzing NASA's web server logs (real public dataset) to answer:
 
 ```
 # NASA HTTP logs (190MB - good starter size)
-wget ftp://ita.ee.lbl.gov/traces/NASA_access_log_Jul95.gz
-wget ftp://ita.ee.lbl.gov/traces/NASA_access_log_Aug95.gz
+curl -O ftp://ita.ee.lbl.gov/traces/NASA_access_log_Jul95.gz
+curl -O ftp://ita.ee.lbl.gov/traces/NASA_access_log_Aug95.gz
 ```
 
 **Sample log line:**
